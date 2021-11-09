@@ -1,0 +1,40 @@
+.beeswarm-container {
+  position: relative;
+  background-color: var(--light-colour);
+  width: 1000px;
+  margin: auto;
+}
+
+.tooltip {
+  position: absolute;
+  width: 220px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px;
+  border: 2px solid #2C384E;
+  box-shadow: 0px 0px 5px #2C384E;
+  transition: all 0.3s ease;
+  opacity: 1;
+}
+
+.tooltip h4 {
+  color: #1b212c;
+  text-align: center;
+}
+
+.tooltip hr {
+  border: none;
+  border-bottom: 2px solid #ee6c4d;
+  height: 0;
+  margin: 3px 0 5px;
+}
+
+.tooltip div {
+  color: #1b212c;
+  margin-bottom: 3px;
+}
+
+.tooltip .tooltip-property {
+  font-weight: bold;
+}

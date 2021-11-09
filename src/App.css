@@ -1,38 +1,79 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap');
+
+:root {
+  --light-colour: #faf9f9;
+}
+
+*, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--light-colour);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: rgb(85, 85, 85);
   text-align: center;
+  margin-top: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.selectors-container {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  display: flex; 
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.selectors {
+  display: flex; 
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.selectors select {
+  margin: 10px 5px;
+  padding: 4px 6px;
+  color: #888;
+  border: 1px solid #888;
+  border-radius: 3px;
+
+}
+
+.selectors select:focus {
+  outline: none;
+  border: 1px solid #888;
+  border-radius: 3px;
+}
+
+.btn-all {
+  border: none;
+  padding: 6px 15px;
+  margin-right: 5px;
+  background-color: #ee6c4d;
+  border: 2px solid white;
   color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-all:hover {
+  background-color: white;
+  color: #ee6c4d;
+  border: 2px solid #ee6c4d;
 }
