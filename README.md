@@ -4,4 +4,4 @@ Exploration of dataset of the 2021 Fortune 1000 Companies. My initial goal was t
 
 - Also see [Observable Notebook](https://observablehq.com/@deaxmachina/fortune-1000-us-companies-2020)
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/192110190@N06/51667270788/in/dateposted-public/" title="fortune1000"><img src="https://live.staticflickr.com/65535/51667270788_90917902f3_z.jpg" width="800"  alt="fortune1000"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/192110190@N06/51667270788/in/dateposted-public/" title="fortune1000"><img src="https://live.staticflickr.com/65535/51667270788_90917902f3_z.jpg" width="800"  alt="fortune1000"></a>
